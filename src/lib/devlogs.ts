@@ -30,7 +30,6 @@ export function getAllMiniCrmDevlogs(): DevlogMetadata[] {
       const fileContents = fs.readFileSync(fullPath, 'utf8');
       const { data } = matter(fileContents);
 
-      // Convert date to string if it's a Date object
       let dateString = '';
       if (data.date) {
         if (data.date instanceof Date) {
@@ -48,7 +47,6 @@ export function getAllMiniCrmDevlogs(): DevlogMetadata[] {
       } as DevlogMetadata;
     })
     .sort((a, b) => {
-      // Sort by date descending (newest first)
       return new Date(b.date).getTime() - new Date(a.date).getTime();
     });
 
@@ -65,7 +63,6 @@ export function getDevlogBySlug(slug: string): Devlog | null {
   const fileContents = fs.readFileSync(fullPath, 'utf8');
   const { data, content } = matter(fileContents);
 
-  // Convert date to string if it's a Date object
   let dateString = '';
   if (data.date) {
     if (data.date instanceof Date) {

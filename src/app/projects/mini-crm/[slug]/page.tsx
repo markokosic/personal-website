@@ -26,16 +26,14 @@ export default async function DevlogPage({ params }: PageProps) {
     <main className="container mx-auto px-4 py-8">
       <div className="mb-6">
         <Link href={'/projects/mini-crm'} className="text-blue-600 hover:text-blue-700 underline">
-          ← Back to Devlogs
+          ← Back
         </Link>
       </div>
 
       <article className="prose max-w-none">
-        <h1>{devlog.title}</h1>
         {devlog.date && <p className="text-gray-600">{devlog.date}</p>}
         <MDXRemote source={devlog.content} />
       </article>
     </main>
   );
 }
-

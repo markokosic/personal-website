@@ -1,3 +1,7 @@
+---
+date: 2026-01-14
+---
+
 # Fundamentales Wissen über den Stoizismus
 
 ## Begriffe

@@ -2,7 +2,7 @@
 date: 2026-01-13
 ---
 
-Inheritance
+# Inheritance
 
 Inheritance is an object-oriented programming principle where a class (child/subclass) derives from another class (parent/superclass).
 

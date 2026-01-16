@@ -2,7 +2,7 @@
 
 ## Single Responsibility Principle (SRP)
 
-Every class, function, or component should have only one reason to change. If a class or function handles multiple responsibilities—such as validation, business logic, and persistence—these responsibilities should be separated into distinct classes or functions, each focused on a single concern. Further, a class or function should have only one reason to change.
+Every class, function, or component should be responsible to one, and only one, actor. If a class or function handles multiple responsibilities—such as validation, business logic, and persistence—these responsibilities should be separated into distinct classes or functions, each focused on a single concern. Further, a class or function should have only one reason to change.
 
 ```java
 // SRP violation: handles validation and persistence

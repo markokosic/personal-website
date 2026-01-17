@@ -1,3 +1,7 @@
+---
+date: 2026-01-14
+---
+
 # SOLID
 
 ## Single Responsibility Principle (SRP)

@@ -1,3 +1,7 @@
+---
+date: 2026-01-14
+---
+
 # Common Closure Principle (CCP)
 
 Definition: The Common Closure Principle states that components that change for the same reason should be grouped together. Each module or component should be closed for changes except when the reason for change affects it. This principle helps isolate changes, reduce side effects, and improve maintainability.
